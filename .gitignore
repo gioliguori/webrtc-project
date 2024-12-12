@@ -37,7 +37,6 @@ pong-game/*~
 pong-nextjs/build
 
 # misc
-pong-nextjs/.DS_Store
 *.pem
 
 # debug
