@@ -1,0 +1,57 @@
+.vscode
+.clang-format
+.DS_Store
+
+# dependencies
+pong-nextjs/node_modules
+pong-nextjs/.pnp
+pong-nextjs/.pnp.*
+pong-nextjs/.yarn/*
+!pong-nextjs/.yarn/patches
+!pong-nextjs/.yarn/plugins
+!pong-nextjs/.yarn/releases
+!pong-nextjs/.yarn/versions
+
+# testing
+pong-nextjs/coverage
+
+# next.js
+pong-nextjs/.next/
+pong-nextjs/out/
+pong-nextjs/build/
+
+# pong-game
+pong-game/*.o
+pong-game/*.exe
+pong-game/*.out
+pong-game/pong
+pong-game/CMakeFiles/
+pong-game/CMakeCache.txt
+pong-game/Makefile
+pong-game/*.cmake
+pong-game/*.swp
+pong-game/*.tmp
+pong-game/*~
+
+# production
+pong-nextjs/build
+
+# misc
+pong-nextjs/.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+pong-nextjs/.env*
+
+# vercel
+pong-nextjs/.vercel
+
+# typescript
+pong-nextjs/*.tsbuildinfo
+pong-nextjs/next-env.d.ts
