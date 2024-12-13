@@ -53,4 +53,3 @@ pong-nextjs/.vercel
 
 # typescript
 pong-nextjs/*.tsbuildinfo
-pong-nextjs/next-env.d.ts
