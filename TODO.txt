@@ -1,0 +1,13 @@
+- gioco in webassembly 
+- giocare online (mettere gioco su nodejs o simili e 
+  capire come prendere input e cose varie)
+- inserire webcam/audio/altre cose dei due giocatori 
+  (con webrtc non dovrebbe essere difficile)
+
+
+  
+- valutare altri giochi (vanno bene java, c, c++, c#, python)
+- valutare altre cose da aggiungere al sito (score, chat, 
+  funzione per registrare la partita magari non so)
+
+
