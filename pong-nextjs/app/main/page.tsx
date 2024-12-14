@@ -27,11 +27,11 @@ export default function MainPage() {
   // Funzione per gestire il logout
   const handleLogout = async () => {
     if (playerId !== null) {
-      await fetch(`${apiUrl}/logout`, {
+      await fetch(`${apiUrl}/auth/logout`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-        },
+        }, 
         body: JSON.stringify({ playerId }),
       });
 

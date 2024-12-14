@@ -12,7 +12,7 @@ export default function LoginForm() {
     if (nickname.trim()) {
       try {
         // Richiesta al backend per il login
-        const response = await fetch(`${apiUrl}/login`, {
+        const response = await fetch(`${apiUrl}/auth/login`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
