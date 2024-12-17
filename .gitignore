@@ -2,25 +2,7 @@
 .clang-format
 .DS_Store
 
-# dependencies
-pong-nextjs/node_modules
-pong-nextjs/.pnp
-pong-nextjs/.pnp.*
-pong-nextjs/.yarn/*
-!pong-nextjs/.yarn/patches
-!pong-nextjs/.yarn/plugins
-!pong-nextjs/.yarn/releases
-!pong-nextjs/.yarn/versions
-
-# testing
-pong-nextjs/coverage
-
-# next.js
-pong-nextjs/.next/
-pong-nextjs/out/
-pong-nextjs/build/
-
-# pong-game
+# pong-game-C
 pong-game/*.o
 pong-game/*.exe
 pong-game/*.out
@@ -33,9 +15,6 @@ pong-game/*.swp
 pong-game/*.tmp
 pong-game/*~
 
-# production
-pong-nextjs/build
-
 # misc
 *.pem
 
@@ -44,16 +23,3 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*x
-
-# env files (can opt-in for committing if needed)
-pong-nextjs/.env*
-
-# vercel
-pong-nextjs/.vercel
-
-# typescript
-pong-nextjs/*.tsbuildinfo
-
-# backend
-
-backend/node_modules
